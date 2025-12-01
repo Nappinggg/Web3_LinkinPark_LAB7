@@ -64,10 +64,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <li><a href="contacts.html">Контакти</a></li>
                 <li><a href="animation.html">Анімація</a></li>
                 <li><a href="survey.php" class="current">Опитування</a></li>
+                <li><a href="jokes.html">Жарти</a></li>
             </ul>
         </nav>
     </div>
 </header>
+
 
 <main>
     <div class="page-wrap">
@@ -130,7 +132,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <div>
                     <button type="submit" class="contact-link">
                         <span>Надіслати відповідь</span>
-                        <small>Надсилання через AJAX</small>
+                        
                     </button>
                 </div>
             </form>
